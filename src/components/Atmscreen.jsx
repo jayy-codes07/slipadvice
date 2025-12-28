@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 
-const AtmScreen = ({ clickyes,clickno, onYes, onNo }) => {
+const Atmscreen = ({ clickyes,clickno, onYes, onNo }) => {
   const [printdone, setprintdone] = useState(null)
 
   useEffect(() => {
@@ -56,4 +56,4 @@ const AtmScreen = ({ clickyes,clickno, onYes, onNo }) => {
   );
 };
 
-export default AtmScreen;
+export default Atmscreen;

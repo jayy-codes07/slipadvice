@@ -2,9 +2,8 @@
 
 import React, { useState } from "react";
 import SilverButton from "./SilverButton";
-// import Receipt from "./Receipt";
 import Recipt from "./Recipt";
-import AtmScreen from "./AtmScreen";
+import Atmscreen from "./Atmscreen";
 
 const Atmbox = () => {
   const [clickyes, setclickyes] = useState(false);
@@ -75,7 +74,7 @@ const Atmbox = () => {
             </div>
 
         
-            <AtmScreen 
+            <Atmscreen 
               clickyes={clickyes} 
               clickno = {clickno}
               onYes={handleYes} 

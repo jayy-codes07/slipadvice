@@ -1,6 +1,6 @@
 
 
-import React, { useContext } from "react";
+import React from "react";
 
 const SilverButton = ({ side, index, onClick }) => {
     
