@@ -48,12 +48,12 @@ const Atmbox = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-black overflow-hidden relative font-mono">
+    <div className="min-h-screen w-full flex items-center justify-center bg-black  relative font-mono">
       
      
    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#333333_0%,_#111111_100%)] z-0"></div>
       
-      <div className="relative flex flex-col scale-[0.76] sm:scale-100 items-center">
+      <div className="relative flex flex-col scale-[0.65] sm:scale-100 items-center">
         
         
         
@@ -83,7 +83,7 @@ const Atmbox = () => {
             />
 
       
-            <div className="flex flex-col gap-6 ml-[-2px] z-20">
+            <div className="flex flex-col gap-6 ml-[-2px] z-30">
               {[...Array(4)].map((_, i) => (
                 <SilverButton
                   key={`right-${i}`}

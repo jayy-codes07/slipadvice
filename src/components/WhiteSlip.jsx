@@ -38,7 +38,7 @@ const WhiteSlip = ({ isPrinting }) => {
 
   return (
    
-    <div className="flex justify-center items-start w-full h-full min-h-screen">
+    <div className="flex justify-center items-start w-full h-full pt-12 md:pt-0 min-h-screen">
       
     
       <div
