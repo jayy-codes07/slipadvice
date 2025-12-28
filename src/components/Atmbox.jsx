@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import SilverButton from "./SilverButton";
 import Recipt from "./Recipt";
 import Atmscreen from "./Atmscreen";
+import btnsound from "./../assets/button-press-382713.mp3"
 
 const Atmbox = () => {
   const [clickyes, setclickyes] = useState(false);
@@ -13,7 +14,7 @@ const Atmbox = () => {
 
   const playSound = () => {
     
-    const audio = new Audio("/src/assets/button-press-382713.mp3");
+    const audio = new Audio(btnsound);
     audio.volume = 0.5;
     audio.play().catch((e) => console.log("Audio Error:", e));
   };
@@ -52,7 +53,7 @@ const Atmbox = () => {
      
    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#333333_0%,_#111111_100%)] z-0"></div>
       
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col scale-[0.76] sm:scale-100 items-center">
         
         
         
