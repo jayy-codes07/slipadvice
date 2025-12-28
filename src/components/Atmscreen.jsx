@@ -35,12 +35,12 @@ const Atmscreen = ({ clickyes,clickno, onYes, onNo }) => {
           ) : (
             
             !clickyes ? (
-              <div className="border-[#dccb8863] border-solid my-4 px-16 border-y flex font-['VT323'] justify-around items-center w-full">
-                <span onClick={onNo} className="cursor-pointer hover:text-white px-4 py-2">
+              <div className="border-[#dccb8863] border-solid my-0 px-0 border-y flex font-['VT323'] justify-around items-center w-full">
+                <span onClick={onNo} className="cursor-pointer hover:text-white px-8 py-2">
                   No
                 </span>
-                <div className="h-16 border-l border-[#dccb8863] mx-4"></div>
-                <span onClick={onYes} className="cursor-pointer hover:text-white px-4 py-2">
+                <div className="h-16 border-l border-[#dccb8863] mx-0"></div>
+                <span onClick={onYes} className="cursor-pointer hover:text-white px-8 py-2">
                   Yes
                 </span>
               </div>
